@@ -8,7 +8,6 @@ public class Cliente {
     }
 
     public String getEnderecoInfo(String url) {
-        String  dados = consumoApi.get(url);
-        return dados;
+        return consumoApi.get(url);
     }
 }
